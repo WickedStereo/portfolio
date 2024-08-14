@@ -1,163 +1,480 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Documentation</title>
-<link href="css/documentation.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Willy Wonkas - Personal Portfolio Website Template" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="willy wonka" />
+    <title>Portfolio</title>
+
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 </head>
 <body>
-<div id="header">
-<img alt="willy wonka logo" src="assets/logo.png"/>
-<h2>Anish Miryala - Portfolio</h2>
-</div>
-<div id="introduction">
-<div class="introduction-heading">Introduction</div>
-<div class="introduction-content">Hello! I'm Anish Miryala, a Computer Engineering graduate with a focus on SoC Design and VLSI systems. My experience spans across hardware development, STEM education, and advanced research projects in AI accelerators and ASIC design.</div>
-<div class="section">
-<h3>Projects</h3>
-<ul>
-<li><strong>System-on-Chip Design - SHA-256 ASIC with Advanced Adder Designs (NYU)</strong>, Jan 2024 — May 2024</li>
-<li><strong>Analog AI Accelerators for Large Language Models (NYU and IBM)</strong>, Sep 2023 — Feb 2024</li>
-<li><strong>SRAM BIST Simulation, RTL (NYU)</strong>, Feb 2023 — May 2023</li>
-<li><strong>Computer Architecture and Design (NYU)</strong>, Oct 2022 — May 2023</li>
-</ul>
-</div>
+    <!--contains all the div-->
+    <div id="all">
 
-<div class="section">
-<h3>Experience</h3>
-<ul>
-<li><strong>Graduate Assistant - Advanced Research Projects</strong>, NYU, Sep 2023 - May 2024</li>
-<li><strong>Instructor, Science of Smart Cities</strong>, NYU Center for K12 STEM Education, Jun 2023 - Aug 2023</li>
-<li><strong>Hardware Development Intern</strong>, Dhruva Space Private Limited, Aug 2020 - Dec 2020</li>
-</ul>
-</div>
-
-<div class="section">
-<h3>Skills</h3>
-<ul>
-<li><strong>EDA:</strong> OpenROAD (RTL to GDS), Cadence Virtuoso, Genus, Innovus, Synopsys VCS, Primetime, Xilinx Vivado</li>
-<li><strong>Programming:</strong> C/C++, Python, Assembly</li>
-<li><strong>HDL:</strong> Verilog, VHDL, System Verilog</li>
-<li><strong>Scripting:</strong> Tcl</li>
-<li><strong>Frameworks:</strong> CUDA, Pytorch</li>
-<li><strong>Other:</strong> Linux, Bash, Git, Latex, MATLAB, Arduino, COMSOL, LTSpice, Low power design</li>
-</ul>
-</div>
-
-<div class="section">
-<h3>Education</h3>
-<ul>
-<li><strong>Master of Science, Computer Engineering</strong>, New York University, 2024 - GPA: 3.7/4.0</li>
-<li><strong>Bachelor of Engineering, Electronics and Instrumentation</strong>, Birla Institute of Technology and Science, 2021 - GPA: 7.1/10</li>
-</ul>
-</div>
-
-<div class="features">
-<ul>Features:
-                <br/>
-<br/>
-<li>Fully Responsive</li>
-<li>Retina Ready</li>
-<li>6 color Variations</li>
-<li>5 Breakers Design</li>
-<li>4 Templates Design</li>
-<li>Compatible with Major Browers</li>
-<li>Compatible With Any Mobile.</li>
-<li>Easy to customise</li>
-<li>W3C Validated - HTML Error Free</li>
-<li>Gsap Animations</li>
-<ul>PAID VERSION INCLUDE:
-                    <br/>
-<li>PHP Mailer</li>
-<li>Working Contact Form with AJAX</li>
-</ul>
-</ul>
-</div>
-<div class="file-structure">
-<ol>
-                File-Structure:
-                <br/>
-<br/>
-<li>This is a Responsive Layout</li>
-<li>&lt;DIV&gt; tag is used as container</li>
-<li>Each section is commented at just top and bottom of it</li>
-<li>Use recent version of any browser for better result.</li>
-<li>Tested in IE 11, Firefox, Chrome , Safari and Opera</li>
-</ol>
-<br/>
-<div class="favicon">
-            To change the Fav Icon,Pick any variation of html template and open with any editor. Top of the page, short cut icon link has been given for fav icon. Here you change the fav icon name and place corresponding icon in the "images" folder. As well as,
-             do the update of web site title and meta description for SEO point of view.
-             <div class="favicon-img">
-<img alt="favicon" src="assets/favicon.PNG"/>
-</div>
-</div>
-</div>
-<div class="css-file-structure">
-<div class="css-file-structure-heading">
-                CSS - Modification
-            </div>
-            To change the images that are in css just add the image in the images folder and then change the name 
-            of background-image in <b>CSS.</b>
-<div class="css-img">
-<img alt="favicon" src="assets/css-your-image.PNG"/>
-</div>
-<div class="css-file-structure-heading">
-                 How to add Custom CSS files 
-            </div>
-            To add custom css files like custom-breakers just add another link of css stylesheet in
-             the head section of <b>HTML</b> as shown Below:
-             <div class="css-img">
-<img alt="favicon" src="assets/breaker.PNG"/>
-</div>
-</div>
-<div class="img-structure">
-<div class="img-structure-heading">
-                    How To Change Images in HTML
-                </div>
-                To change the images that are in html just add the image in the images folder and then change the value 
-                of img src in <b>HTML.</b>
-<div class="css-img">
-<img alt="favicon" src="assets/image.PNG"/>
-</div>
-</div>
-<div class="links-structure">
-<div class="links-structure-heading">
-              How To Change Link Address
-            </div>
-            To change links address go to <b> index.html</b> file and change the url of the link as shown 
-            below:
-            <div class="css-img">
-<img alt="" src="assets/links.png"/>
-</div>
-</div>
-<div class="links-structure">
-<div class="links-structure-heading">
-<span class="span"> GET MORE FREE TEMPLATES</span>
-</div>
-<div class="free"> Click here to get more free templates made by us: <a href="https://www.templatemonster.com/website-templates.php?text=winkthemes+free">FREE TEMPLATES</a></div>
-<div class="free-image-container">
-<a href="https://www.templatemonster.com/website-templates.php?text=winkthemes+free"><img src="assets/free-one.jpg"/></a>
-<a href="https://www.templatemonster.com/website-templates.php?text=winkthemes+free"><img src="assets/free-two.jpg"/></a>
-<a href="https://www.templatemonster.com/website-templates.php?text=winkthemes+free"><img src="assets/free-three.png"/></a>
-</div>
-</div>
-<div class="ending">
-            You are all set now !!!
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Anish</span>Miryala 
         </div>
-<div class="features">
-<ul>Credits:
-                <br/>
-<br/>
-<li>Pexels</li>
-<li>Icon8</li>
-<li>Unsplash</li>
-<li>Google fonts</li>
-<li>Greensock</li>
-</ul>
-</div>
-</div>
+    <!--loader-end-->
+
+    <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+
+        <!--Home Page-->       
+            <!--Menubar-->
+            <div id="navigation-bar">
+                <div class="menubar">
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                </div>
+            </div>
+            <!--Menubar End-->
+            
+            <!--Header-->
+            <div id="header">
+                <div id="particles"></div>
+                <!--Social Media Links-->
+                <div class="social-media-links">
+                    <a href="https://www.linkedin.com/in/anish-miryala/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                    <a href="https://www.facebook.com/aneesh.miryala"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
+                    <a href="https://github.com/WickedStereo"><img src="images/github logo.png" class="social-media" alt="github-logo"></a>
+                </div>
+                <!--Social Media Links end-->
+                <div class="header-content">
+                    <div class="header-content-box">
+                        <div class="firstline"><span class="color">Anish </span>Miryala</div>
+                        <div class="secondline">
+                            I'm a
+                            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Computer", " Digital Design", "SoC Design", " ASIC Design", " Verification" ]'></span><span class="slash">|</span>
+                            Engineer
+                        </div>
+                        <div class="contact">
+                            <a href="Mailto:aneeshmiryala12321@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                            <a href="Tel:+18603297278"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                        </div>
+                    </div>                    
+                </div>
+                <!--header image-->
+                <div class="header-image">
+                    <img src="images/man.jpg" alt="logo">
+                </div>
+                <!--header image end-->
+            </div>
+            <!--Header End-->
+        <!--HomePage End-->
+    <!--Main-Section End-->
+    
+        
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                <div class="about-first-paragraph wow">
+            
+                    <!--about description-->
+                    <span class="about-first-line">
+                    I'm a 
+                    <span class="color">computer engineer</span> based in New York , USA </span><br>
+                    <span class="about-second-line"> Graduated specializing in VLSI Design, Digital Hardware Design, and Computer Architecture. Adept in EDA tools, programming languages, and research methodologies. Pursuing a role to leverage skills in hardware design, programming, and innovative research to contribute to cutting-edge projects in the field of silicon engineering and advanced technologies.</span>
+                    <div class="cv">
+                        <a href="Anish_Miryala_Resume.pdf" download="Anish_Miryala_Resume.pdf"><button><span class="index">Download CV<i class="gg-arrow-right"></i></span></button></a>
+                    </div>
+                </div>
+
+                    <!--about picture-->
+                    <div class="about-img">
+                        <img src="images/about.png" alt="Your Image">
+                    </div>
+
+                </div>
+                <div class="about-header">
+                    Educ<span class="color">ation</span>
+                </div>
+
+                <span class="about-first-line">New York University </span>
+                <span class="about-second-line"> MS in Computer Engineering </span>
+                <span class="about-second-line">2022 - 2024</span><br>
+                
+                <span class="about-first-line">Birla Institute of Technology and Science, Pilani</span>
+                <span class="about-second-line">BE in Electronics and Instrumentation Engineering </span>
+                <span class="about-second-line">2017 - 2021</span>
+            </div>
+        </div>      
+        <!--about end-->
+        
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+                <span class ="header-caption"> Some Of My <span class="color"> Works</span></span>
+            </div>
+            
+            <div id="portfolio-content">
+                
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Bitcoin Mining ASIC</h2>
+                        <p>Open-source ASIC optimized for the SHA-256 hash function used in Bitcoin mining</p>
+                        <div class="button"><a href="https://github.com/WickedStereo/SHA-256-ASIC-for-Bitcoin-Mining"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>LLMs on IBM Analog AI Accelerator</h2>
+                        <p>LLAMA-2 with IBM Analog AI hardware accelerator on a PCM array using NYU’s supercomputer cluster GREENE</p>
+                        <div class="button"><a href="https://github.com/WickedStereo/LLAMA-2-7b-on-IBM-Analog-AI-accelerator"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+             
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>SRAM BIST</h2>
+                        <p>Developed a 256x4b SRAM with a Built-in-self-test engine, integrated four test algorithms, and optimized timing using Genus. BIST enables fault detection and self-testing without external equipment, reducing costs and improving quality</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>RISC-V Processor</h2>
+                        <p>Designed and implemented a RISC-V processor from ground up, fully functional and efficient 32-bit RISC-V processor core based on the RV32I instruction set architecture (ISA)</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-fifth">
+                    <div class=" portfolio-image">
+                        <img src="images/portfolio-fifth.jpg" alt="portfolio-fifth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Vector Processor</h2>
+                        <p>Developed a functional and timing simulator for a  vector processor with 46 instructions, based on the VMIPS instruction set architecture (ISA)</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--portfolio end-->
+        
+        <!--contact-->
+        <div id="contact">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-header">Contact <span class="color"> Me</span>
+                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+            </div>
+            
+            <div class="contact-content">
+                <!--Contact form-->
+                <div class="contact-form">
+                    <div class="form-header">
+                        Message Me
+                    </div>
+                    <form id="myForm" action="#">
+                        <div class="input-line">
+                            <input  id="name" type="text" placeholder="Name" class="input-name">
+                            <input id="email" type="email" placeholder="Email"  class="input-name">
+                        </div>
+                        <input type="text" id="subject" placeholder="subject" class="input-subject">
+                        <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
+                        <button type="button" id ="submit" value="send">Submit</button>
+                    </form>               
+                </div>
+                <!--Contact form-->
+                <!--Contact information-->
+                <div class="contact-info">
+                    <div class="contact-info-header">
+                        Contact Info
+                    </div>
+                    <div class="contact-info-content">
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Name</h6>
+                                <p>Anish Miryala</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-content-line">
+                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Location</h6>
+                                <p>New York, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-content-line">
+                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Call</h6>
+                                <p>+18603297278</p>
+                            </div>
+                        </div>
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Email</h6>
+                                <p>aneeshmiryala12321@gmail.com</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!--Contact information end-->           
+            
+            </div>
+
+        </div>
+        <!--contact end-->
+    </div>
+    
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    
+    <!--particles script-->
+    <script>
+        particlesJS("particles", {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 10,
+        "direction": "bottom-right",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": false,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });  
+    </script>
+
 </body>
 </html>
