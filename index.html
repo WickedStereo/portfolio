@@ -1,480 +1,404 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Willy Wonkas - Personal Portfolio Website Template" />
-	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
-	<meta name="author" content="willy wonka" />
-    <title>Portfolio</title>
+  <!-- Google Analytics -->
+<!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TK3FGSDN1S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <!--main css file should not be removed -->
-    <link rel="stylesheet" href="css/index.css">
-    <!--main css file-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    gtag('config', 'G-TK3FGSDN1S');
+  </script>-->
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/favicon.png" rel="icon" type="image/png">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
-<body>
-    <!--contains all the div-->
-    <div id="all">
 
-    <!--loader-->
-        <div id="loader">
-            <span class="color">Anish</span>Miryala 
-        </div>
-    <!--loader-end-->
+<body class="index-page">
 
-    <!--Main-Section-->
-        <!--Navigator-fullscreen-->
-        <div id="navigation-content">
-            <div class="navigation-close">
-                <span class="close-first"></span>
-                <span class="close-second"></span>
-            </div>
-            <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link" >HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
-                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
-                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
-            </div>
-        </div>
-        <!--Navigator-Fullscreen END-->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-        <!--Home Page-->       
-            <!--Menubar-->
-            <div id="navigation-bar">
-                <div class="menubar">
-                    <span class="first-span"></span>
-                    <span class="second-span"></span>
-                    <span class="third-span"></span>
-                </div>
-            </div>
-            <!--Menubar End-->
-            
-            <!--Header-->
-            <div id="header">
-                <div id="particles"></div>
-                <!--Social Media Links-->
-                <div class="social-media-links">
-                    <a href="https://www.linkedin.com/in/anish-miryala/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
-                    <a href="https://www.facebook.com/aneesh.miryala"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
-                    <a href="https://github.com/WickedStereo"><img src="images/github logo.png" class="social-media" alt="github-logo"></a>
-                </div>
-                <!--Social Media Links end-->
-                <div class="header-content">
-                    <div class="header-content-box">
-                        <div class="firstline"><span class="color">Anish </span>Miryala</div>
-                        <div class="secondline">
-                            I'm a
-                            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Computer", " Digital Design", "SoC Design", " ASIC Design", " Verification" ]'></span><span class="slash">|</span>
-                            Engineer
-                        </div>
-                        <div class="contact">
-                            <a href="Mailto:aneeshmiryala12321@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
-                            <a href="Tel:+18603297278"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
-                        </div>
-                    </div>                    
-                </div>
-                <!--header image-->
-                <div class="header-image">
-                    <img src="images/man.jpg" alt="logo">
-                </div>
-                <!--header image end-->
-            </div>
-            <!--Header End-->
-        <!--HomePage End-->
-    <!--Main-Section End-->
-    
-        
-        <!--about-->
-        <div id="about">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename"></h1>
+      </a>
 
-            <div class="color-selector">
-                <div class="heading">Custom Colors</div>
-                <div class="colors">
-                    <ul >
-                    <li>
-                        <a href="#0" class="color-red " title="color-red"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-purple" title="color-purple"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-malt" title="color-malt"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-green" title="color-green"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-blue" title="color-blue"></a>
-                    </li>
-                    <li>
-                        <a href="#0" class="color-orange" title="color-orange"></a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            
-            <!--about content-->
-            <div id="about-content">
-                <div class="about-header">
-                    About <span class="color">Me</span>
-                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
-                </div>
-                <div class="about-main">
-                <div class="about-first-paragraph wow">
-            
-                    <!--about description-->
-                    <span class="about-first-line">
-                    I'm a 
-                    <span class="color">computer engineer</span> based in New York , USA </span><br>
-                    <span class="about-second-line"> Graduated specializing in VLSI Design, Digital Hardware Design, and Computer Architecture. Adept in EDA tools, programming languages, and research methodologies. Pursuing a role to leverage skills in hardware design, programming, and innovative research to contribute to cutting-edge projects in the field of silicon engineering and advanced technologies.</span>
-                    <div class="cv">
-                        <a href="Anish_Miryala_Resume.pdf" download="Anish_Miryala_Resume.pdf"><button><span class="index">Download CV<i class="gg-arrow-right"></i></span></button></a>
-                    </div>
-                </div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-                    <!--about picture-->
-                    <div class="about-img">
-                        <img src="images/about.png" alt="Your Image">
-                    </div>
-
-                </div>
-                <div class="about-header">
-                    Educ<span class="color">ation</span>
-                </div>
-
-                <span class="about-first-line">New York University </span>
-                <span class="about-second-line"> MS in Computer Engineering </span>
-                <span class="about-second-line">2022 - 2024</span><br>
-                
-                <span class="about-first-line">Birla Institute of Technology and Science, Pilani</span>
-                <span class="about-second-line">BE in Electronics and Instrumentation Engineering </span>
-                <span class="about-second-line">2017 - 2021</span>
-            </div>
-        </div>      
-        <!--about end-->
-        
-        <!--portfolio-->
-        <div id="portfolio">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
-                        <li>
-                            <a href="#0" class="color-red " title="color-red"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-purple" title="color-purple"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-malt" title="color-malt"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-green" title="color-green"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-blue" title="color-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-orange" title="color-orange"></a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-                <span class ="header-caption"> Some Of My <span class="color"> Works</span></span>
-            </div>
-            
-            <div id="portfolio-content">
-                
-                <div class="portfolio portfolio-first">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Bitcoin Mining ASIC</h2>
-                        <p>Open-source ASIC optimized for the SHA-256 hash function used in Bitcoin mining</p>
-                        <div class="button"><a href="https://github.com/WickedStereo/SHA-256-ASIC-for-Bitcoin-Mining"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                
-                <div class="portfolio portfolio-second">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>LLMs on IBM Analog AI Accelerator</h2>
-                        <p>LLAMA-2 with IBM Analog AI hardware accelerator on a PCM array using NYU’s supercomputer cluster GREENE</p>
-                        <div class="button"><a href="https://github.com/WickedStereo/LLAMA-2-7b-on-IBM-Analog-AI-accelerator"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-             
-                <div class="portfolio portfolio-third">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>SRAM BIST</h2>
-                        <p>Developed a 256x4b SRAM with a Built-in-self-test engine, integrated four test algorithms, and optimized timing using Genus. BIST enables fault detection and self-testing without external equipment, reducing costs and improving quality</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-
-                <div class="portfolio portfolio-fourth">
-                    <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>RISC-V Processor</h2>
-                        <p>Designed and implemented a RISC-V processor from ground up, fully functional and efficient 32-bit RISC-V processor core based on the RV32I instruction set architecture (ISA)</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-
-                <div class="portfolio portfolio-fifth">
-                    <div class=" portfolio-image">
-                        <img src="images/portfolio-fifth.jpg" alt="portfolio-fifth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Vector Processor</h2>
-                        <p>Developed a functional and timing simulator for a  vector processor with 46 instructions, based on the VMIPS instruction set architecture (ISA)</p>
-                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--portfolio end-->
-        
-        <!--contact-->
-        <div id="contact">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul >
-                        <li>
-                            <a href="#0" class="color-red " title="color-red"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-purple" title="color-purple"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-malt" title="color-malt"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-green" title="color-green"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-blue" title="color-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#0" class="color-orange" title="color-orange"></a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contact-header">Contact <span class="color"> Me</span>
-                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
-            </div>
-            
-            <div class="contact-content">
-                <!--Contact form-->
-                <div class="contact-form">
-                    <div class="form-header">
-                        Message Me
-                    </div>
-                    <form id="myForm" action="#">
-                        <div class="input-line">
-                            <input  id="name" type="text" placeholder="Name" class="input-name">
-                            <input id="email" type="email" placeholder="Email"  class="input-name">
-                        </div>
-                        <input type="text" id="subject" placeholder="subject" class="input-subject">
-                        <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
-                        <button type="button" id ="submit" value="send">Submit</button>
-                    </form>               
-                </div>
-                <!--Contact form-->
-                <!--Contact information-->
-                <div class="contact-info">
-                    <div class="contact-info-header">
-                        Contact Info
-                    </div>
-                    <div class="contact-info-content">
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Name</h6>
-                                <p>Anish Miryala</p>
-                            </div>
-                        </div>
-                        <div class="contact-info-content-line">
-                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Location</h6>
-                                <p>New York, USA</p>
-                            </div>
-                        </div>
-                        <div class="contact-info-content-line">
-                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Call</h6>
-                                <p>+18603297278</p>
-                            </div>
-                        </div>
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Email</h6>
-                                <p>aneeshmiryala12321@gmail.com</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-                <!--Contact information end-->           
-            
-            </div>
-
-        </div>
-        <!--contact end-->
     </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/cover.jpeg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Anish Miryala</h2>
+        <p><span class="typed" data-typed-items="Computer Engineer"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Anish Miryala</span></p>
+                <p><strong>Profile: </strong> <span>Computer Engineer</span></p>
+                <p><strong>Email: </strong> <span>am12553@nyu.edu</span></p>
+                <p><strong>Phone: </strong> <span>(860) 329-7278</span></p>
+              </div>
+            </div>
+
+            <!-- <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div> -->
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                I am a Computer Engineer graduated specializing in VLSI Design, Digital Hardware Design, and Computer Architecture.
+              </p>
+              <p>
+                Adept in EDA tools, programming languages, and research methodologies.
+                </p>
+              <p>
+                Pursuing a role to leverage skills in hardware design, programming, and innovative research to contribute to cutting-edge projects in the field of silicon engineering and advanced technologies.
+                </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>My Journey</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Experience</h3>
+            
+            <div class="resume-item">
+                <h4>Graduate Assistant</h4>
+                <h3>NYU</h3><br>
+                <h5 class="nospace">Aug 2023 - May 2024</h5>
+                <ul>
+                  <li>Designed fully custom high-speed SRAM, 32Kb (256 x 128), using Cadence Virtuoso and ASU ASAP 7nm technology PDK.</li>
+                  <li>Designed the SRAM Wordline (Row) Decoder and achieved 10% better than the target latency of 100 ps.</li>
+                  <li>Collaborated with other teams to achieve a clock-to-data-out latency of 200 ps (5 GHz) through SPICE simulations.</li>
+                </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+                <h4>Hardware Development Intern</h4>
+                <h3>Dhruva Space Pvt. Ltd.</h3><br>
+                <h5 class="nospace">Aug 2020 - Dec 2020</h5>
+                <ul>
+                    <li>Developed assembly program to establish communication (UART, SPI) between microcontrollers in a CubeSatellite deployer.</li>
+                </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item pb-0">
+                <h4>New York University</h4>
+                <h3>Master of Science in Computer Engineering</h3><br>
+                <h5>2022 - 2024</h5>
+              </div><!-- Edn Resume Item -->
+  
+              <div class="resume-item pb-0">
+                  <h4>Birla Institute of Technology and Science, Pilani</h4>
+                  <h3>Bachelor of Engineering in Electronics and Instrumentation</h3><br>
+                  <h5>2017 - 2021</h5>
+              </div><!-- Edn Resume Item -->
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
     
-    <!--all the divisions-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/index.js"></script>
     
-    <!--particles script-->
-    <script>
-        particlesJS("particles", {
-    "particles": {
-      "number": {
-        "value": 80,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": "#ffffff"
-      },
-      "shape": {
-        "type": "circle",
-        "stroke": {
-          "width": 0,
-          "color": "#000000"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "opacity": {
-        "value": 0.5,
-        "random": false,
-        "anim": {
-          "enable": false,
-          "speed": 1,
-          "opacity_min": 0.1,
-          "sync": false
-        }
-      },
-      "size": {
-        "value": 3,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 40,
-          "size_min": 0.1,
-          "sync": false
-        }
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 10,
-        "direction": "bottom-right",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
-        "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
-        }
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": false,
-          "mode": "grab"
-        },
-        "onclick": {
-          "enable": true,
-          "mode": "push"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 400,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
-        "repulse": {
-          "distance": 200,
-          "duration": 0.4
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
-      }
-    },
-    "retina_detect": true
-  });  
-    </script>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-Chips">Chips</li>
+            <li data-filter=".filter-AI">AI</li>
+            <li data-filter=".filter-ot">Other</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Chips">
+              <img src="assets/project/sha256.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bitcoin Mining ASIC</h4>
+                <p>Open-source ASIC optimized for the SHA-256 hash function used in Bitcoin mining</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                <a href="https://github.com/WickedStereo/SHA-256-ASIC-for-Bitcoin-Mining" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-AI">
+              <img src="assets/project/aihwkit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>LLMs on IBM Analog AI Accelerator</h4>
+                <p>LLAMA-2 with IBM Analog AI hardware accelerator on a PCM array using NYU’s supercomputer cluster GREENE</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                <a href="https://github.com/WickedStereo/LLAMA-2-7b-on-IBM-Analog-AI-accelerator" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Chips">
+                <img src="assets/project/mbist.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>BIST SRAM Design</h4>
+                  <p>Developed Verilog code for a 256x4b SRAM MBIST, integrated four test algorithms, and optimized timing using Genus tools. BIST enabled fault detection and self-testing without external equipment, reducing costs and improving quality. This approach ensures reliability and real-time monitoring for complex digital systems.</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                  <a href="https://github.com/WickedStereo/SRAM-BIST" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Chips">
+                <img src="assets/project/riscv.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>RISC-V Processor</h4>
+                  <p>The goal of this project was to design and implement a RISC-V RV32I processor from scratch, focusing on creating a fully functional and efficient 32-bit RISC-V processor core that adheres to the RV32I instruction set architecture (ISA). The design aims to deliver a robust, scalable processor that can be utilized in various applications and serves as a foundation for further enhancements.</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                  <a href="https://github.com/WickedStereo/RV32I-Processor-Design" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Chips">
+                <img src="assets/project/vmips_simulator.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Vector Processor</h4>
+                  <p>Developed a functional and timing simulator for a vector processor with 46 instructions, based on the VMIPS instruction set architecture (ISA)</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                  <a href="https://github.com/WickedStereo/VMIPS-Func-Timing-Simulator" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    
+   
+
+    
+
+  <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p class="space">Feel free to reach me through LinkedIn or email</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+      <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-5">
+  
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Brooklyn NY 11220</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Me</h3>
+                <p>+1 860 329 7278</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Me</h3>
+                <p><a href="mailto:ar7997@nyu.edu">am12553@nyu.edu</a></p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <!-- LinkedIn Info Item -->
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-linkedin flex-shrink-0"></i>
+              <div>
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/anish-miryala/" target="_blank">View my LinkedIn profile</a></p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <!-- GitHub Info Item -->
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-github flex-shrink-0"></i>
+              <div>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/WickedStereo" target="_blank">View my GitHub profile</a></p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+  
+        </div>
+      </div>
+  
+    </div>
+  
+  </section><!-- /Contact Section -->
+
+  
+  </main>
+
+  
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
